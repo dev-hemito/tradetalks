@@ -119,10 +119,12 @@
         }
     </style>
 </head>
+<link rel="stylesheet" href="style.css">
+
 
 <body>
-    <!-- Navbar -->
-    <nav class="bg-black shadow fixed w-full z-50">
+    <!-- START: Navigation -->
+    <nav class="bg-black shadow fixed w-full z-50  fade-in">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
                 <img src="./Trade Talks Logo white.png" alt="Trade Talks" class="h-10 w-auto">
@@ -133,12 +135,12 @@
             </button>
         </div>
     </nav>
-
-    <!-- Hero Section -->
-    <section class="text-white relative overflow-hidden hero-bg ">
+    <!-- END: Navigation -->
+    <!-- START: Hero Section -->
+    <section class="text-white relative overflow-hidden hero-bg fade-in ">
         <div class=" md:pt-24 pt-32 pl-4 pr-4" style="background-color: rgba(0, 0, 0, 0.7);">
             <div class="grid md:grid-cols-2 gap-8 items-center mx-auto max-w-7xl  ">
-                <div class="space-y-6">
+                <div class="space-y-6 scroll-trigger">
                     <h1 class="text-4xl md:text-5xl font-bold leading-tight font-timesnew">
                         Are You Serious About Learning Share Trading?
                     </h1>
@@ -148,15 +150,15 @@
                     </p>
                 </div>
                 <div class="relative">
-                    <img src="./dp.webp" alt="Trading Expert" class=" w-full">
+                    <img src="./dp.webp" alt="Trading Expert" class=" w-full scroll-trigger">
                 </div>
 
             </div>
         </div>
     </section>
-
-    <!-- Enrollment Section -->
-    <section class="py-16">
+    <!-- END: Hero Section -->
+    <!-- START: Enrollment Section -->
+    <section class="py-16 slide-in-left">
         <div class="container mx-auto px-4 max-w-7xl">
             <div class="relative">
                 <!-- Top curved container with text -->
@@ -249,7 +251,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <!-- END: Enrollment Section -->
+    <!-- START: Mentors Section -->
+    <section class="fade-in">
         <div class="w-full py-8 relative overflow-hidden">
             <div class="absolute md:grid grid-cols-1 hidden  gap-2 left-0 top-0 w-1/3 pt-24 h-1/2  space-y-6">
                 <div class="gradient-border"></div>
@@ -360,10 +364,13 @@
             </div>
         </div>
     </section>
-    <h2 class="text-center md:text-7xl text-4xl font-bold">Why choose us?</h2>
-    <p class="text-center text-gray-500 mt-2 p-4">Discover the unmatched advantages of joining Trade Talks Kerala's No.1
+    <!-- END: Mentors Section -->
+    <!-- START: Why Choose Us Section -->
+    <h2 class="text-center md:text-7xl text-4xl font-bold slide-in-left">Why choose us?</h2>
+    <p class="text-center text-gray-500 mt-2 p-4 slide-in-left">Discover the unmatched advantages of joining Trade Talks
+        Kerala's No.1
         Share Trading Academy.</p>
-    <section class=" px-4">
+    <section class=" px-4 slide-in-left">
         <div class="container mx-auto max-w-7xl">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- Expert Mentorship Card -->
@@ -428,7 +435,9 @@
             </div>
         </div>
     </section>
-    <section class="py-16 px-4">
+    <!-- END: Why Choose Us Section -->
+    <!-- START: Meet Our Mentors Section -->
+    <section class="py-16 px-4 scale-up">
         <div class="container mx-auto max-w-7xl">
             <!-- Section Header -->
             <div class="mb-5 ">
@@ -543,8 +552,9 @@
             </div>
         </div>
     </section>
-    <!-- testimonials -->
-    <section class="py-8">
+    <!-- END: Meet Our Mentors Section -->
+    <!-- START: Testimonials Section -->
+    <section class="py-8 fade-in">
         <div class="container mx-auto px-4 max-w-7xl">
             <!-- Section Header -->
             <div class="text-center">
@@ -701,8 +711,10 @@
             </div>
         </div>
     </section>
-    <section class=""></section>
-    <div class="container mx-auto px-4 max-w-7xl">
+    <!-- END: Testimonials Section -->
+
+    <!-- START: Video Testimonials Section -->
+    <div class="container mx-auto px-4 max-w-7xl scale-up">
         <!-- Section Header -->
         <div class="text-center mb-12">
             <h2 class="text-4xl font-bold mb-4">Video Testimonials</h2>
@@ -728,7 +740,10 @@
             <!-- Video 2 -->
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div class="relative w-full pt-[56.25%]">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jwsWahcFYFI?si=dOPTBNDxBqQ0TtK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jwsWahcFYFI?si=dOPTBNDxBqQ0TtK-"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Success Story 2</h3>
@@ -739,7 +754,10 @@
             <!-- Video 3 -->
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div class="relative w-full pt-[56.25%]">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qYXJIb_xoqU?si=sHcDy345yjj5if4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qYXJIb_xoqU?si=sHcDy345yjj5if4v"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Success Story 3</h3>
@@ -749,7 +767,7 @@
         </div>
     </div>
     </section>
-
+    <!-- END: Video Testimonials Section -->
 
     <script>
         let currentSlide = 0;
@@ -778,97 +796,110 @@
         // Auto-play
         setInterval(nextSlide, 5000);
     </script>
- <section class="py-16 ">
-    <div class="container mx-auto px-4 max-w-5xl">
-        <!-- Timer and Flash Offer Banner -->
-        <div class="bg-yellow-100 border-2 border-yellow-400 rounded-lg p-4 mb-8 text-center">
-            <div class="flex justify-center items-center space-x-4">
-                <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                </svg>
-                <p class="text-lg font-semibold text-yellow-800">Limited Time Flash Offer!</p>
+    <!-- START: Bonuses Section -->
+    <section class="py-16  ">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <!-- Timer and Flash Offer Banner -->
+            <div class=" slide-in-left bg-yellow-100 border-2 border-yellow-400 rounded-lg p-4 mb-8 text-center">
+                <div class="flex justify-center items-center space-x-4">
+                    <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <p class="text-lg font-semibold text-yellow-800">Limited Time Flash Offer!</p>
+                </div>
+            </div>
+
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold mb-4">Grab These Bonuses When You Join Our Course Today!</h2>
+            </div>
+
+            <!-- Bonuses Grid -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Bonus 1 - Teal -->
+                <div class=" slide-in-left bg-blue-50 p-6 rounded-xl shadow-md border border-teal-100">
+                    <h3 class="text-xl font-semibold mb-2 text-teal-900">Free E-Book: "The Ultimate Guide to Stock
+                        Trading"</h3>
+                    <p class="text-gray-600 mb-2">Get access to our comprehensive e-book, packed with tips and
+                        strategies to kickstart your trading journey.</p>
+                    <p class="text-teal-600 font-semibold">Worth ₹1,500</p>
+                </div>
+
+                <!-- Bonus 2 - Blue -->
+                <div class=" slide-in-left bg-green-50 p-6 rounded-xl shadow-md border border-blue-100">
+                    <h3 class="text-xl font-semibold mb-2 text-teal-900">Personalized Trading Plan</h3>
+                    <p class="text-gray-600 mb-2">Receive a customized trading plan tailored to your financial goals and
+                        risk tolerance.</p>
+                    <p class="text-teal-600 font-semibold">Worth ₹2,000</p>
+                </div>
+
+                <!-- Bonus 3 - Purple -->
+                <div class=" slide-in-left bg-purple-50 p-6 rounded-xl shadow-md border border-purple-100">
+                    <h3 class="text-xl font-semibold mb-2 text-teal-900">Exclusive Webinars</h3>
+                    <p class="text-gray-600 mb-2">Participate in monthly webinars featuring industry experts and gain
+                        insights into market trends.</p>
+                    <p class="text-teal-600 font-semibold">Worth ₹3,000</p>
+                </div>
+
+                <!-- Bonus 4 - Indigo -->
+                <div class=" slide-in-left bg-indigo-50 p-6 rounded-xl shadow-md border border-indigo-100">
+                    <h3 class="text-xl font-semibold mb-2 text-teal-900">1 Year Access to Course Materials</h3>
+                    <p class="text-gray-600 mb-2">Enjoy lifetime access to all course materials, including recorded
+                        sessions and resources.</p>
+                    <p class="text-teal-600 font-semibold">Worth ₹5,000</p>
+                </div>
+
+                <!-- Bonus 5 - Sky -->
+                <div class=" slide-in-left bg-yellow-50 p-6 rounded-xl shadow-md border border-sky-100">
+                    <h3 class="text-xl font-semibold mb-2 text-sky-900">Lifetime Access to Premium Community</h3>
+                    <p class="text-gray-600 mb-2">Join a thriving community of 5000+ Traders and benefit from shared
+                        knowledge.</p>
+                    <p class="text-sky-600 font-semibold">Worth ₹6,000</p>
+                </div>
+
+                <!-- Bonus 6 - Emerald -->
+                <div class=" slide-in-left bg-red-50 p-6 rounded-xl shadow-md border border-emerald-100">
+                    <h3 class="text-xl font-semibold mb-2 text-emerald-900">Networking Opportunities</h3>
+                    <p class="text-gray-600 mb-2">Connect with fellow traders through our exclusive community forums and
+                        events.</p>
+                    <p class="text-emerald-600 font-semibold">Worth ₹2,500</p>
+                </div>
+
+                <!-- Bonus 7 - Cyan -->
+                <div class=" slide-in-left bg-blue-50 p-6 rounded-xl shadow-md border border-cyan-100">
+                    <h3 class="text-xl font-semibold mb-2 text-cyan-900">Discount on Advanced Courses</h3>
+                    <p class="text-gray-600 mb-2">Get an exclusive discount on future advanced trading courses.</p>
+                    <p class="text-cyan-600 font-semibold">Worth ₹3,500</p>
+                </div>
+
+                <!-- Bonus 8 - Rose -->
+                <div class=" slide-in-left bg-green-50 p-6 rounded-xl shadow-md border border-rose-100">
+                    <h3 class="text-xl font-semibold mb-2 text-rose-900">Certificate of Completion</h3>
+                    <p class="text-gray-600 mb-2">Earn a prestigious certificate upon course completion.</p>
+                    <p class="text-rose-600 font-semibold">Worth ₹1,000</p>
+                </div>
+            </div>
+
+            <!-- Total Value -->
+            <div class="text-center mb-12">
+                <p class="text-2xl font-bold text-teal-600">Total Bonus Value: ₹24,500!</p>
+                <p class="text-lg text-gray-600 mt-4">Don't miss out on these incredible bonuses! Join Trade Talks today
+                    and take the first step toward a profitable trading career!</p>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="text-center">
+                <a href="#enrollment-form"
+                    class="inline-block bg-green-600 text-white text-2xl font-bold px-12 py-6 rounded-xl shadow-lg hover:bg-teal-700 transform hover:-translate-y-1 transition-all duration-200">
+                    Yes, I Want to Learn Stock Trading in Malayalam
+                </a>
             </div>
         </div>
+    </section>
+    <!-- END: Bonuses Section -->
 
-        <!-- Section Header -->
-        <div class="text-center mb-12">
-            <h2 class="text-4xl font-bold mb-4">Grab These Bonuses When You Join Our Course Today!</h2>
-        </div>
-
-        <!-- Bonuses Grid -->
-        <div class="grid md:grid-cols-2 gap-8 mb-12">
-            <!-- Bonus 1 - Teal -->
-            <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-teal-100">
-                <h3 class="text-xl font-semibold mb-2 text-teal-900">Free E-Book: "The Ultimate Guide to Stock Trading"</h3>
-                <p class="text-gray-600 mb-2">Get access to our comprehensive e-book, packed with tips and strategies to kickstart your trading journey.</p>
-                <p class="text-teal-600 font-semibold">Worth ₹1,500</p>
-            </div>
-
-            <!-- Bonus 2 - Blue -->
-            <div class="bg-green-50 p-6 rounded-xl shadow-md border border-blue-100">
-                <h3 class="text-xl font-semibold mb-2 text-teal-900">Personalized Trading Plan</h3>
-                <p class="text-gray-600 mb-2">Receive a customized trading plan tailored to your financial goals and risk tolerance.</p>
-                <p class="text-teal-600 font-semibold">Worth ₹2,000</p>
-            </div>
-
-            <!-- Bonus 3 - Purple -->
-            <div class="bg-purple-50 p-6 rounded-xl shadow-md border border-purple-100">
-                <h3 class="text-xl font-semibold mb-2 text-teal-900">Exclusive Webinars</h3>
-                <p class="text-gray-600 mb-2">Participate in monthly webinars featuring industry experts and gain insights into market trends.</p>
-                <p class="text-teal-600 font-semibold">Worth ₹3,000</p>
-            </div>
-
-            <!-- Bonus 4 - Indigo -->
-            <div class="bg-indigo-50 p-6 rounded-xl shadow-md border border-indigo-100">
-                <h3 class="text-xl font-semibold mb-2 text-teal-900">1 Year Access to Course Materials</h3>
-                <p class="text-gray-600 mb-2">Enjoy lifetime access to all course materials, including recorded sessions and resources.</p>
-                <p class="text-teal-600 font-semibold">Worth ₹5,000</p>
-            </div>
-
-            <!-- Bonus 5 - Sky -->
-            <div class="bg-yellow-50 p-6 rounded-xl shadow-md border border-sky-100">
-                <h3 class="text-xl font-semibold mb-2 text-sky-900">Lifetime Access to Premium Community</h3>
-                <p class="text-gray-600 mb-2">Join a thriving community of 5000+ Traders and benefit from shared knowledge.</p>
-                <p class="text-sky-600 font-semibold">Worth ₹6,000</p>
-            </div>
-
-            <!-- Bonus 6 - Emerald -->
-            <div class="bg-red-50 p-6 rounded-xl shadow-md border border-emerald-100">
-                <h3 class="text-xl font-semibold mb-2 text-emerald-900">Networking Opportunities</h3>
-                <p class="text-gray-600 mb-2">Connect with fellow traders through our exclusive community forums and events.</p>
-                <p class="text-emerald-600 font-semibold">Worth ₹2,500</p>
-            </div>
-
-            <!-- Bonus 7 - Cyan -->
-            <div class="bg-blue-50 p-6 rounded-xl shadow-md border border-cyan-100">
-                <h3 class="text-xl font-semibold mb-2 text-cyan-900">Discount on Advanced Courses</h3>
-                <p class="text-gray-600 mb-2">Get an exclusive discount on future advanced trading courses.</p>
-                <p class="text-cyan-600 font-semibold">Worth ₹3,500</p>
-            </div>
-
-            <!-- Bonus 8 - Rose -->
-            <div class="bg-green-50 p-6 rounded-xl shadow-md border border-rose-100">
-                <h3 class="text-xl font-semibold mb-2 text-rose-900">Certificate of Completion</h3>
-                <p class="text-gray-600 mb-2">Earn a prestigious certificate upon course completion.</p>
-                <p class="text-rose-600 font-semibold">Worth ₹1,000</p>
-            </div>
-        </div>
-
-        <!-- Total Value -->
-        <div class="text-center mb-12">
-            <p class="text-2xl font-bold text-teal-600">Total Bonus Value: ₹24,500!</p>
-            <p class="text-lg text-gray-600 mt-4">Don't miss out on these incredible bonuses! Join Trade Talks today and take the first step toward a profitable trading career!</p>
-        </div>
-
-        <!-- CTA Button -->
-        <div class="text-center">
-            <a href="#enrollment-form" class="inline-block bg-green-600 text-white text-2xl font-bold px-12 py-6 rounded-xl shadow-lg hover:bg-teal-700 transform hover:-translate-y-1 transition-all duration-200">
-                Yes, I Want to Learn Stock Trading in Malayalam
-            </a>
-        </div>
-    </div>
-</section>
+    <!-- START: FAQ Section -->
     <section class="py-8 ">
         <div class="container mx-auto px-4 max-w-4xl">
             <!-- Section Header -->
@@ -999,12 +1030,14 @@
             }
         </script>
     </section>
-
-
+    <!-- END: FAQ Section -->
+    <!-- START: Map Section -->
     <iframe class="w-full"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d125668.30643001317!2d76.2893579!3d10.1697149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0807c7b0e94c2b%3A0x5063d5823da7bb9e!2sTrade%20Talks%20Share%20Trading%20Academy%20%7C%20Share%20Market%20Courses%20Kerala%20%7C%20Stock%20Market%20Course!5e0!3m2!1sen!2sin!4v1736769152779!5m2!1sen!2sin"
         width="1080" height="300" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- END: Map Section -->
+    <!-- START: Footer -->
     <footer class="bg-black border-t border-gray-100">
         <div class="container mx-auto max-w-6xl px-4">
             <!-- Main Footer Content -->
@@ -1084,7 +1117,8 @@
             </div>
         </div>
     </footer>
-
+    <!-- END: Footer -->
+    <!-- START: Floating Contact Buttons -->
     <div class="float-buttons fixed bottom-6 right-6 flex flex-col gap-4">
         <!-- WhatsApp -->
         <a href="https://wa.me/+919072722294" target="_blank" class="contact-button relative group">
@@ -1134,7 +1168,8 @@
             </div>
         </a>
     </div>
-
+    <!-- END: Floating Contact Buttons -->
+    <!-- START: Video Modal -->
     <div id="videoModal" class="fixed inset-0 bg-black bg-black flex items-center justify-center z-50 hidden">
         <div class="relative w-full max-w-4xl mx-4">
             <!-- Close Button -->
@@ -1157,6 +1192,7 @@
             </div>
         </div>
     </div>
+    <!-- END: Video Modal -->
     <script>
         function openVideoModal() {
             const modal = document.getElementById('videoModal');
@@ -1184,6 +1220,9 @@
             }
         });
     </script>
+    <!-- Add this JavaScript at the end of your body tag -->
+   
+    <script src="animation.js"></script>
 </body>
 
 </html>
