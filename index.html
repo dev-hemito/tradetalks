@@ -117,6 +117,100 @@
             background-color: #007514;
             color: white
         }
+        .benefits-section {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            color: #1e293b;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .benefit-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit-icon {
+            width: 50px;
+            height: 50px;
+            background: #22c55e;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .benefit-icon svg {
+            width: 28px;
+            height: 28px;
+            color: white;
+        }
+
+        .benefit-title {
+            font-size: 1.25rem;
+            color: #1e293b;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .benefit-description {
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #22c55e;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <link rel="stylesheet" href="style.css">
@@ -132,7 +226,7 @@
             <a href="/#contact"
                 class="bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-2 rounded-full transition-colors">
                 Join Now
-        </a>
+            </a>
         </div>
     </nav>
     <!-- END: Navigation -->
@@ -142,11 +236,13 @@
             <div class="grid md:grid-cols-2 gap-8 items-center mx-auto max-w-7xl  ">
                 <div class="space-y-6 scroll-trigger">
                     <h1 class="text-4xl md:text-5xl font-bold leading-tight font-timesnew">
-                        Are You Serious About Learning Share Trading?
+                        Learn Stock Trading with Kerala’s No.1 Academy – 
                     </h1>
                     <p class="text-lg text-gray-300 font-bold">
-                        Join <span class="text-blue-300">Trade Talks Kerala's No.1 Share Trading Academy.</span>
-                        <br>Tailored for Beginners, Intermediate & Advanced Traders.
+                        Tailored Courses for Beginners, Intermediate &
+                        Advanced Traders.
+
+                       
                     </p>
                 </div>
                 <div class="relative">
@@ -158,13 +254,14 @@
     </section>
     <!-- END: Hero Section -->
     <!-- START: Enrollment Section -->
-    <section class="py-16 slide-in-left">
+    <section class="py-8 slide-in-left">
         <div class="container mx-auto px-4 max-w-7xl">
             <div class="relative">
                 <!-- Top curved container with text -->
                 <div class="bg-white rounded-t-3xl  px-8 py-4 text-center mb-4">
                     <h2 class="text-xl md:text-2xl font-semibold">
-                        Enroll for a Profitable Future, Led by Expert Traders - Sunil Mathai & Silby
+                        Join Online or Offline Stock Trading Classes! Enroll Today for a Profitable Future, Led by
+                        Expert Traders Sunil Mathai & Silby
                     </h2>
                 </div>
 
@@ -612,6 +709,92 @@
         </div>
     </section>
     <!-- END: Meet Our Mentors Section -->
+    <!-- START: Benefit Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Learn Stock Trading Course in <span class="highlight">Malayalam</span>?</h2>
+                <p class="section-subtitle">
+                    Join <span class="highlight">Trade Talks Kerala</span>, led by experts Sunil Mathai & Silly, 
+                    and experience the advantage of learning stock trading in your native language.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <!-- Technical Terms Card -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Technical Terms Made Simple</h3>
+                    <p class="benefit-description">
+                        Grasp complex trading terminology effortlessly in Malayalam, allowing you to focus on mastering trading strategies rather than language barriers.
+                    </p>
+                </div>
+
+                <!-- Comprehensive Methods Card -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Comprehensive Trading Knowledge</h3>
+                    <p class="benefit-description">
+                        Get a thorough understanding of various trading methods and concepts, ensuring you're well-equipped for market success.
+                    </p>
+                </div>
+
+                <!-- Academic Progress Card -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Enhanced Learning Progress</h3>
+                    <p class="benefit-description">
+                        Experience accelerated academic progress as you engage with the material more deeply in your native language.
+                    </p>
+                </div>
+
+                <!-- Interactive Learning Card -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Comfortable Interactive Sessions</h3>
+                    <p class="benefit-description">
+                        Enjoy a comfortable learning environment where you can freely interact with mentors and peers in Malayalam.
+                    </p>
+                </div>
+
+                <!-- Cognitive Benefits Card -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                  d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Enhanced Understanding</h3>
+                    <p class="benefit-description">
+                        Benefit from improved retention and cognitive understanding when learning complex trading concepts in Malayalam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Benefit Section -->
+
     <!-- START: Testimonials Section -->
     <section class="py-8 fade-in">
         <div class="container mx-auto px-4 max-w-7xl">
@@ -1227,7 +1410,7 @@
             </div>
         </a>
         <a href="/#contact" class="contact-button relative group">
-           
+
             <div
                 class="bg-green-500 px-8    text-white p-3 rounded-full shadow-lg hover:bg-green-600 flex items-center justify-center">
                 Join Now
